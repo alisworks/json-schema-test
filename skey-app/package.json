@@ -4,8 +4,29 @@
   "description": "Technical assessment for Securekey",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Arshad Ali",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jsonschema": "^1.2.5"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/jest": "^24.0.23",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^11.15.3",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "jest": "^24.9.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.1",
+    "rimraf": "^2.6.3",
+    "ts-jest": "^24.2.0",
+    "ts-node": "^8.3.0",
+    "ts-node-dev": "^1.0.0-pre.40",
+    "typescript": "^3.7.3",
+    "typescript-eslint-parser": "^22.0.0",
+    "typescript-json-schema": "^0.41.0"
+  }
 }
