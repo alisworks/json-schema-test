@@ -8,8 +8,8 @@ import jwt from 'jsonwebtoken';
  * facilitate various common jwt utility functions.
  */
 
-const cert_priv = fs.readFileSync(__dirname + '/../../keys/skey_RS256.key', 'utf8');
-const cert_pub = fs.readFileSync(__dirname + '/../../keys/skey_RS256.key.pub', 'utf8');
+const cert_priv = fs.readFileSync(__dirname + '/../keys/skey_RS256.key', 'utf8');
+const cert_pub = fs.readFileSync(__dirname + '/../keys/skey_RS256.key.pub', 'utf8');
 
 const ALGORITHM_RS256 ='RS256';
 

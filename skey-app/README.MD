@@ -4,6 +4,20 @@ skey-app is a json payload validator app that
 - Uses JSON Schema validator to validate json payload contents
 
 #### Getting Started
+Typescript is the main language that has been used along with other npm packages.
+
+##### Commands   
+Run application <br/>
+`$npm run start`
+
+Run application in dev mode <br/>
+`$npm run dev:live`
+
+Compile typescript code to js files for deployment <br/>
+`$npm run build`
+<br/>
+- The above command will transpile the code and generate js files under the <root>/dist folder.
+- Please note that the RSA key pairs are not copied and should be regenerated for different environments - such as staging/production.  
 
 
 #### Unit Tests

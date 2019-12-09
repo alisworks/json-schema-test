@@ -61,8 +61,6 @@ describe('Verify valid Json payloads can be validated successfully', function ()
 
     it('validate a minimal person schema', async function () {
         const testPayloadObj = {"name":"Test"};
-        let result= await schemaValidator.validatePersonSchema(testPayloadObj);
-
         expect(await schemaValidator.validatePersonSchema(testPayloadObj))
             .toBe(testPayloadObj);
     });
