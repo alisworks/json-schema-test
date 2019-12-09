@@ -1,0 +1,11 @@
+{
+  "name": "skey-app",
+  "version": "1.0.0",
+  "description": "Technical assessment for Securekey",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arshad Ali",
+  "license": "ISC"
+}
