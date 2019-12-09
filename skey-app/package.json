@@ -9,13 +9,15 @@
   "author": "Arshad Ali",
   "license": "ISC",
   "dependencies": {
-    "jsonschema": "^1.2.5"
+    "jsonschema": "^1.2.5",
+    "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/jest": "^24.0.23",
     "@types/mocha": "^5.2.7",
     "@types/node": "^11.15.3",
+    "@types/jwt-simple": "^0.5.33",
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
     "jest": "^24.9.0",
